@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+header {
+    padding: 1rem;
+    background-color: rgba(0, 51, 161, 0.829);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-dato {
+    padding: 2rem;
+}
